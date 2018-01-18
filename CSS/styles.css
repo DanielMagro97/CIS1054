@@ -1,0 +1,130 @@
+/* Question 1 */
+h1,h2,h3{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body{
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+/* Question 2 */
+body{
+    font-size: 12px;
+}
+
+h3{
+    font-size: 2em;
+}
+h2{
+    font-size: 2.5em;
+}
+h1{
+    font-size: 3em;
+}
+
+/* Question 3 */
+#page-wrap{
+    width: 80%;
+}
+
+/* Question 4 */
+h1{
+    color: #303030;
+}
+
+h2{
+    color: #7c7c7c;
+}
+
+/* Question 5 */
+p img{
+    float: right;
+    margin: auto;
+}
+
+/* Question 6 */
+.menu-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+    background-color: #333;
+    float: left;
+    width: 100%;
+}
+
+.menu-list > li{
+    float: left;
+}
+
+.menu-list li a{
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #444;
+}
+
+.menu-list li a:hover{
+    background-color: #111;
+}
+
+/* Style for list.php and search.php Products List */
+ul.products li {
+    width: 200px;
+    display: inline-block;
+    padding: 25px;
+    vertical-align: top;
+}
+
+/* Style for details.php Product Page */
+#product_details #prod-img{
+    float: left;
+    width: 65%;
+    position: absolute;
+    display: inline-block;
+}
+#product_details #prod-det{
+    float: right;
+    width: 35%;
+    position: relative;
+    display: inline-block;
+}
+
+/* Style for menu.php Menu Bar Drop Down */
+
+.drop-down {
+    float: left;
+    position: relative;
+}
+
+.drop-down > ul {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.drop-down ul li {
+    position: relative;
+    height: auto;
+    background: #999999;
+}
+
+.drop-down ul li:hover {
+    background: #CCCCCC;
+}
+
+.drop-down:hover > ul{
+    display: inline;
+}
+
+.main-menu li:hover > ul{
+    /* On hover, display the next level's menu */
+    display: inline;
+}
